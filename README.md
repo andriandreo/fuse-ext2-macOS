@@ -183,6 +183,7 @@ Please **do not** use commas `,` in partition labels.
 
 * Solving the `xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance` error prompted by `make`:
     - Considering you have already installed the full version of `Xcode`, if you already had the `Xcode Command Line Tools` it's likely `xcodebuild` is pointing to that directory instead of that of `Xcode.app`. Just do: `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` and run `make` again.
+* [macFUSE EXT Wiki](https://github.com/osxfuse/osxfuse/wiki/Ext)
 
 # Contact
 
